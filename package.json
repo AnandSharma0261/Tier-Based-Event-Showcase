@@ -1,0 +1,37 @@
+{
+  "name": "tier-based-event-showcase",
+  "version": "1.0.0",
+  "description": "A tier-based event showcase application built with Next.js 14, Clerk, and Supabase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "nextjs",
+    "clerk",
+    "supabase",
+    "events",
+    "tiers"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/nextjs": "^6.28.0",
+    "@supabase/supabase-js": "^2.53.0",
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "^15.4.5",
+    "next": "^14.2.30",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  }
+}
